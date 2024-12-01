@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{8d1d4836-be58-4655-8124-9fd652c86b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design">
+      <UniqueIdentifier>{66e0a85a-5d3b-440b-9072-e39200d96312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI">
+      <UniqueIdentifier>{081e1683-a7af-4f16-b64a-19da18754bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\AbstractFactory">
+      <UniqueIdentifier>{fabe2dbb-987e-4149-b809-1baf00e3fc96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Design\CollisionMgr">
+      <UniqueIdentifier>{6d343802-ed95-47d7-bc55-eae63f517e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Boss_Monster">
+      <UniqueIdentifier>{69df0038-def2-4641-863f-e739695c9aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Boss_Monster\Boss_Bullet">
+      <UniqueIdentifier>{89ebb145-8f67-4824-b3af-a126c5faa619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. BaseObj">
+      <UniqueIdentifier>{c26b210f-5164-4679-8b97-44cdd2c28067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. BaseObj\00. Player">
+      <UniqueIdentifier>{f596f0d5-7660-47e0-a6e5-7bf0d3c2d121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. BaseObj\01. Bullet">
+      <UniqueIdentifier>{04e4cfc2-3036-4d03-beca-6a2a7df1a371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. BaseObj\02. Monster">
+      <UniqueIdentifier>{dae19db5-3b7f-4c32-b10b-5b3434ef1d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. BaseObj\03. Pet">
+      <UniqueIdentifier>{746fd04c-e902-4fa9-afe6-735471a10fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. BaseObj\04. Shield">
+      <UniqueIdentifier>{2c257ccb-d2c0-4655-98a5-546d51f6a635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. BaseObj\01. Bullet\ScrewBullet">
+      <UniqueIdentifier>{8d0a431f-c44b-4754-bcae-028f82ed3e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. BaseObj\05. Mouse">
+      <UniqueIdentifier>{adaf7d20-ff37-4238-9801-6e0a75d00982}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamWork1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObj.h">
+      <Filter>01. BaseObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. BaseObj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01. BaseObj\01. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. BaseObj\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>01. BaseObj\03. Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>01. BaseObj\04. Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>02. Design\CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>02. Design\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>03. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Monster.h">
+      <Filter>04. Boss_Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Bullet.h">
+      <Filter>04. Boss_Monster\Boss_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrewBullet.h">
+      <Filter>01. BaseObj\01. Bullet\ScrewBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01. BaseObj\05. Mouse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TeamWork1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObj.cpp">
+      <Filter>01. BaseObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. BaseObj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01. BaseObj\01. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. BaseObj\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>01. BaseObj\03. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>01. BaseObj\04. Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>02. Design\CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>03. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Monster.cpp">
+      <Filter>04. Boss_Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Bullet.cpp">
+      <Filter>04. Boss_Monster\Boss_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrewBullet.cpp">
+      <Filter>01. BaseObj\01. Bullet\ScrewBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01. BaseObj\05. Mouse</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamWork1.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TeamWork1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
